@@ -11,10 +11,10 @@ const Header = (props) => {
     return (
         <header>
             <Grid container spacing={3}>
-                <Grid item xs={10}>
+                <Grid container item xs={10}>
                     <Typography variant="h4">{ props.title }</Typography>
                 </Grid>
-                <Grid item xs={2}>
+                <Grid container item xs={2} justifyContent="flex-end" >
                     <MyButton variant="contained" color="primary" text="Add" onClick={onClick} />
                 </Grid>
             </Grid>
