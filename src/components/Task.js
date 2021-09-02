@@ -1,4 +1,5 @@
 import { Box, Typography } from '@material-ui/core'
+import ClearRoundedIcon from '@material-ui/icons/ClearRounded';
 
 const Task = ({task}) => {
     return (
@@ -12,8 +13,8 @@ const Task = ({task}) => {
                 <Typography variant="subtitle2">
                     {task.date} @ {task.time}
                 </Typography>
-                
             </Box>
+            <ClearRoundedIcon style={{fontSize: "medium", color: "red"}}></ClearRoundedIcon>
         </>
     )
 }
