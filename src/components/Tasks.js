@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography, Box } from '@material-ui/core'
+import { Card, CardContent, Box } from '@material-ui/core'
 import Task from './Task'
 
 const Tasks = ({tasks}) => {
@@ -10,9 +10,7 @@ const Tasks = ({tasks}) => {
                         <Box key={task.id} mt={2} >
                             <Card>
                                 <CardContent >
-                                    <Typography variant="h6">
-                                        <Task task={task} />
-                                    </Typography>
+                                    <Task task={task} />
                                 </CardContent>
                             </Card>
                         </Box>
