@@ -14,7 +14,7 @@ const Task = ({task}) => {
                     {task.date} @ {task.time}
                 </Typography>
             </Box>
-            <ClearRoundedIcon style={{fontSize: "medium", color: "red", cursor: "pointer"}}></ClearRoundedIcon>
+            <ClearRoundedIcon style={{fontSize: "medium", color: "red"}}></ClearRoundedIcon>
         </>
     )
 }

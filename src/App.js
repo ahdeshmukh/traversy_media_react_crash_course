@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <Container maxWidth="md">
-      <Box p={2}>
+      <Box p={2} border={1}>
         <Header title="My Task Tracker" />
         <Tasks tasks={tasks} />
       </Box>
